@@ -61,5 +61,14 @@
 ### http
 + http_demo.js
 
-### cherrio
-+ npm install -save cherrio
+### 安装 cherrio
++ npm install  cherrio -save
+
+### 安装 express
++ npm install express -save
++ get req.query
++ post req.body 需要boby-parser 解析
+
+### 安装 body-parser
++ npm install body-parser -save
+
