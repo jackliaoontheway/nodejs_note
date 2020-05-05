@@ -11,7 +11,7 @@
 
 ### 设置镜像源
  + npm config set registry https://registry.npm.taobao.org
-
+ + www.npmjs.com
 ### node 运行环境 REPL
 
 ### 模块化
@@ -37,5 +37,29 @@
 
 ```
 
+### 模块引用
++ 第三方模块的引用 从当前目录的node_modules 以此往上找
+
 ### fs 文件操作
 + fs_demo.js
+
+### url
+``` js
+    url_demo.js;
+    const url = require('url');
+    let urlObj = url.parse(urlString);
+    let urlString2 = url.format(urlObj2);
+
+    queryStr = 'name-jack#id-123';
+    obj = qs.parse(queryStr,'#','-');
+    console.log(obj);
+
+    queryStr = qs.stringify(obj);
+    console.log(queryStr);
+```
+
+### http
++ http_demo.js
+
+### cherrio
++ npm install -save cherrio
