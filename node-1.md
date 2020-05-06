@@ -72,3 +72,5 @@
 ### 安装 body-parser
 + npm install body-parser -save
 
+### promise
++ promise_demo.js
