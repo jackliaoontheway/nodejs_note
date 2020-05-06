@@ -74,3 +74,6 @@
 
 ### promise
 + promise_demo.js
+
+### mongoose
++ npm install mongoose -save
