@@ -77,3 +77,6 @@
 
 ### mongoose
 + npm install mongoose -save
+
+### apidoc 生成api文档
+
