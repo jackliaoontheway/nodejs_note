@@ -80,3 +80,18 @@
 
 ### apidoc 生成api文档
 
+### ajax 跨域问题
++ 域名 ip 端口 一致
++ cors
++ jsonp
++ 代理
+
+### request
+
+### multer
+
+### socket
+
+
+
+
